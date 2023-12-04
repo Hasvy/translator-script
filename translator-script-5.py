@@ -19,7 +19,7 @@ options.add_argument("--profile-directory=Profile 1")
 options.add_argument("--disable-gpu")
 options.add_argument("--disable-notifications")
 driver=webdriver.Chrome()
-url = 'https://slovnik.seznam.cz/preklad/nemecky_cesky/'
+url = 'https://slovnik.seznam.cz/preklad/rusky_cesky/'
 csv_file = open('CZ ' + datetime.now().strftime("%d.%m") + '.txt', 'a+', newline='', encoding="utf-8")
 
 def copy_clipboard():
